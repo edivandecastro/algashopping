@@ -1,8 +1,14 @@
 import React from 'react'
 import { Wrapper, Title, Array } from './ShoppingList.styles'
 import Checkbox from '../../shared/Checkbox'
+// import { useSelector } from 'react-redux'
 
 function ShoppingList ({ title, products, onToggle }) {
+
+  // const productsFromRedux = useSelector(state => state.products)
+
+  // useEffect(() => console.table(productsFromRedux), [productsFromRedux])
+
   return <Wrapper>
     <Title>
       { title }:
