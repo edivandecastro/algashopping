@@ -11,7 +11,7 @@ import ShoppingList from '../ShoppingList'
 import Calculator from '../Calculator'
 
 import { toggleProduct } from '../../store/Products/Products.actions'
-import { selectAllProducts, selectSelectedProducts, selectSelectedProductTotalPrice } from '../../store/Products/Products.selector'
+import { selectSelectedProducts, selectSelectedProductTotalPrice } from '../../store/Products/Products.selector'
 
 function App () {
   const colors = ['#62CBC6', '#00ABAD', '#00858C', '#006073', '#004D61']
