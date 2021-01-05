@@ -1,4 +1,4 @@
-export function selectProducts(state) {
+export function selectAllProducts(state) {
   return state.products
 }
 
